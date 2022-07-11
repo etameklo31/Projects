@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8'>
+  <title></title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+    crossorigin="anonymous">
+
+  <style>
+    html {
+      font-family: 'Lato', sans-serif;
+      box-sizing: border-box;
+      font-size: 62.5%; /* why I use rem / rem explanation: 10/16px = 62.5% -> 1rem = 10px; */ 
+    }
+
+    *,
+    *::before,
+    *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: inherit;
+    }
+
+    .container {
+      display: grid;
+
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+      
+      margin-top: 5em;
+      justify-items: center;
+      align-items: start;
+      
+      height: 100vh;
+
+
+    }
+
+    body {
+      overflow: hidden;
+    }
+
+    .logo {
+      grid-column: 2;
+      grid-row: 1;
+
+    }
+
+    .search-bar {
+      grid-column: 1/-1;
+      grid-row: 2;
+
+    }
+
+  
+    .javascript-posts {
+      grid-column: 1/-1;
+      grid-row: 3;
+
+    }
+
+
+    .logo img {
+      width: 10.5rem;;
+    }
+
+
+    .search-bar input {
+      width: 66vw;
+      height: 7.8rem;
+      padding-left: 0.75em;
+    }
+
+    .search-bar input[type=text] {
+      font-size: 2.5em;
+      font-family: 'Font Awesome\ 5 Free', Arial, Helvetica, sans-serif;
+      font-weight: 600;
+      color: #5B5B5B;
+      -webkit-box-shadow: 2px 3px 20px 1px rgba(0, 0, 0, 0.1);
+      -moz-box-shadow: 2px 3px 20px 1px rgba(0, 0, 0, 0.1);
+      box-shadow: 2px 3px 20px 1px rgba(0, 0, 0, 0.1);
+      border: 0px solid transparent;
+      border-radius: .5rem;
+    }
+
+    .search-bar input[type=text]::placeholder {
+      font-family: 'Font Awesome\ 5 Free', Arial, Helvetica, sans-serif;
+      font-weight: 600;
+      color: #A4A4A4;
+    }
+
+    .search-bar input[type=text]:focus {
+      outline: none;
+      -webkit-box-shadow: 2px 3px 20px 1px rgba(0, 0, 0, 0.3);
+      -moz-box-shadow: 2px 3px 20px 1px rgba(0, 0, 0, 0.3);
+      box-shadow: 2px 3px 20px 1px rgba(0, 0, 0, 0.3);
+    }
+
+    .search-bar p {
+      color: #B3B3B3;
+      font-size: 1.4rem;
+      line-height: 1.7rem;
+      margin-top: 2.3rem;
+      text-align: right;
+    }
+
+
+    .javascript-heading {
+      color: #2660F3;
+      margin-bottom:1rem;
+      font-size: 1.4rem;
+    }
+
+    .javascript-wrapper {
+      
+      
+      width: 66vw;
+      grid-gap: 2.5rem;
+      
+    }
+
+    .javascript-title {
+      color: #535353;
+      font-size: 1.4rem;
+      font-family: 'Font Awesome\ 5 Free', Arial, Helvetica, sans-serif;
+    
+    }
+
+    .javascript-category {
+      color: #999999;
+      font-size: 1.2rem;
+    }
+
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="images/ds_circle_logo.png" alt="">
+    </div>
+
+    <div class="search-bar">
+      <input type="text" placeholder="&#xf002; Search DailySmarty">
+      <p>Press return to search</p>
+    </div>
+
+    <div class="javascript-posts">
+      <div class="javascript-heading">
+          JavaScript
+      </div>
+      <div class="javascript-wrapper">
+        <div class="javascript-post">
+          <div class="javascript-title">
+            Guide to rendering points on a Google Map in Rails
+          <div class="javascript-category">
+                Lorem ipsum dolor sit amet. consectetur adipisicing elit.
+           </div>
+
+           <div class="javascript-category">
+                Lorem ipsum dolor sit amet. consectetur adipisicing elit.
+           </div>
+
+           <div class="javascript-category">
+                Lorem ipsum dolor sit amet. consectetur adipisicing elit.
+           </div>
+
+
+          <div class="javascript-category">
+                Lorem ipsum dolor sit amet. consectetur adipisicing elit.
+           </div>
+
+           </div>
+
+        </div>
+
+
+
+        <div class="javascript-heading">
+                JavaScript
+            </div>
+            <div class="javascript-wrapper">
+              <div class="javascript-post">
+                <div class="javascript-title">
+                  Guide to rendering points on a Google Map in Rails
+                </div>
+              </div>
+
+
+
+              <div class="javascript-heading">
+                    JavaScript
+                </div>
+                <div class="javascript-wrapper">
+                  <div class="javascript-post">
+                    <div class="javascript-title">
+                      Guide to rendering points on a Google Map in Rails
+                    </div>
+                  </div>  
+                  
+                  <div class="javascript-heading">
+                        JavaScript
+                    </div>
+                    <div class="javascript-wrapper">
+                      <div class="javascript-post">
+                        <div class="javascript-title">
+                          Guide to rendering points on a Google Map in Rails
+                        </div>
+                      </div>              
+
+      </div>
+    </div>
+  </div>
+</body>
+
+
+
+</html>
