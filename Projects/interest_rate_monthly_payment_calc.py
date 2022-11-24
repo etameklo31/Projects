@@ -17,4 +17,6 @@ def main():
     print("The monthly payment for this loan is : %.2f " % monthly_payment)
     print("")
 
-main()
+
+while True:
+    main()
