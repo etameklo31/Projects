@@ -5,10 +5,10 @@ import smtplib
 email_sender = 'emanueltameklo31@gmail.com'
 email_password = 'abdc eoom hyhd folg'
 
-email_reciever = 'berry.belcher23@gmail.com'
+email_reciever = 'cutiegirlypie1@gmail.com'
 
 subject = "Don't forget to subscribe"
-body = "You are a penis pirate :)"
+body = "Hi, nice to meet!"
 
 em = EmailMessage()
 em['From'] = email_sender
