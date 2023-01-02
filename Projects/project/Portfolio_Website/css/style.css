@@ -318,16 +318,17 @@ header {
 @media (min-width: 800px) {
     .services {
         display: flex;
-        max-width: 1000px;
+        /* max-width: 1000px; */
         margin-left: auto;
-        margin-right: auto;
-
+        margin-right: auto;    
     }
 
     .service + .service {
         margin-left: 2em;
     }
 }
+
+/*ABOUT ME*/
 
 .about-me {
     max-width: 1000px;
@@ -380,11 +381,10 @@ header {
 
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .portfolio__item {
-    background: var(--clr-accent);
     overflow: hidden;
 }
 
