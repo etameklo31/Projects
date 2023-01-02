@@ -388,6 +388,10 @@ header {
     overflow: hidden;
 }
 
+.portfolio__img-7{
+    position: center;
+}
+
 .portfolio__img {
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
