@@ -2,10 +2,10 @@ from email.message import EmailMessage
 import ssl
 import smtplib
 
-email_sender = 'emanueltameklo31@gmail.com'
-email_password = 'abdc eoom hyhd folg'
+email_sender = '' # this is where you put email
+email_password = '' # this is where your email password which you get from the 2 factor authentication in google
 
-email_reciever = 'cutiegirlypie1@gmail.com'
+email_reciever = '' # this is where you put the email recipient 
 
 subject = "Don't forget to subscribe"
 body = "Hi, nice to meet!"
